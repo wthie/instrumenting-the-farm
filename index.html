@@ -1,0 +1,455 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Kona Science Cafe – The Instrumented Farm</title>
+
+    <meta name="description" content="A snapshot of the evolving instrumentation of Makani Kai Pacific LLC">
+    <meta name="author" content="Werner Thie">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/makanikai.css" id="theme">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="reveal">
+
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+        <section>
+          <h1>The Instrumented Farm</h1>
+          <p>
+            <small>Werner Thie - werner@thieprojects.ch</small>
+          </p>
+          <p>
+            <small>Meet me every Friday 1700-1830 @ the Coder Dojo, building PB-19, Holualoa Elementary</small>
+          </p>
+        </section>
+
+        <section data-background-video="media/leo-drone-overview.mp4,media/leo-drone-overview.webm" data-background-color="#000000">
+        </section>
+
+        <section>
+          <section>    <!-- History -->
+            <h2>a tiny bit of history...</h2>
+          </section>
+          <section>
+            <h2>we always wanted a farm</h2>
+          </section>
+          <section>
+            <h2>a sustainable FOSS farm</h2>
+            <p class="fragment  fade up" style="color:lightgreen">(F)ree and (O)pen (S)ource (S)oftware</p>
+           </section>
+          <section>
+            <h2>a farm is a place where humans try to instill some order</h2>
+          </section>
+          <section>
+          <img height="600"  data-src="media/nature2farm.jpg">
+          </section>
+          <section>
+            <h2>to separate unwanted from wanted</h2>
+          </section>
+          <section>
+          <img height="600"  data-src="media/weeds2tomatoes.jpg">
+          </section>
+        </section>
+
+          <section>    <!-- Farm Definition -->
+          <section>
+            <h2>again, what is a farm?</h2>
+          </section>
+          <section>
+            <h2>Mass Transfer Analysis</h2>
+          </section>
+          <section>
+            <img height="600"  data-src="media/farm-blackbox.svg">
+          </section>
+          <section>
+            <h2>Sustainability </h2>
+            <p class="fragment  fade up" style="color:lightgreen">is achieved when mass flow is balanced</p>
+          </section>
+        </section>
+
+        <section>    <!-- Points of interest -->
+          <section>
+            <h2>Points of interest - Measure what can be measured</h2>
+            <p>A lot of data can be more effectively gathered manually</p>
+          </section>
+          <section>
+            <h2>County and catchment water</h2>
+            <p>Human usage</p>
+            <p>Irrigation</p>
+            <p>Coffee processing water</p>
+          </section>
+          <section>
+            <img height="600"  data-src="media/catchment-area-big.jpg">
+          </section>
+          <section>
+            <img height="600"  data-src="media/catchment-water-small.jpg">
+          </section>
+          <section>
+            <h2>Weather</h2>
+            <p>Rainfall</p>
+            <p>Wind speed</p>
+            <p>Temperature</p>
+             <p>Humidity</p>
+             <p>Radiation</p>
+          </section>
+          <section>
+            <img height="600"  data-src="media/weather-sensor.jpg">
+          </section>
+          <section>
+            <h2>Bio Digester</h2>
+            <p>Feed, water, organics</p>
+            <p>Slurry, temperature, pH</p>
+            <p>Methane, volume, composition</p>
+            <p>Effluent, temperature, pH, turbidity</p>
+          </section>
+          <section>
+            <img height="600"  data-src="media/biodigester.jpg">
+          </section>
+          <section>
+            <img height="600"  data-src="media/feed-biodigester.jpg">
+          </section>
+          <section>
+            <img height="600"  data-src="media/effluent-biodigester.jpg">
+          </section>
+          <section>
+            <img height="600"  data-src="media/gas-volume.jpg">
+          </section>
+          <section>
+            <img height="600"  data-src="media/gas-storage.jpg">
+          </section>
+          <section>
+            <h2>Compost</h2>
+            <p>Feed, water, organics</p>
+            <p>Temperature</p>
+            <p>Produce</p>
+            <p>pH</p>
+          </section>
+          <section>
+            <h2>Electrical Energy</h2>
+            <p>HELLCO</p>
+            <p>PV</p>
+            <p>Methane, (generator)</p>
+            <p>Methane, (roasting, cooking)</p>
+          </section>
+          <section>
+            <img height="600"  data-src="media/electric-panel.jpg">
+          </section>
+          <section>
+            <img height="600"  data-src="media/PV-array.jpg">
+          </section>
+          <section>
+            <img height="600"  data-src="media/wind-turbine.jpg">
+          </section>
+          <section>
+            <h2>Chemicals</h2>
+            <p>Fertilizer</p>
+            <p>Herbicides/Pesticides</p>
+            <p>Human Medication</p>
+            <p>Human produced effluents/septic tank</p>
+            <p>Plastic softeners outwash</p>
+            <p>Nano particles</p>
+          </section>
+          <section>
+            <h2>Soil analysis</h2>
+            <p>Composition</p>
+            <p>Humidity</p>
+            <p>pH</p>
+          </section>
+          <section>
+            <h2>Imagery</h2>
+            <p>Manual picture taking</p>
+            <p>Autonomous picture taking</p>
+            <p>Plant health, evolution</p>
+            <p>Erosion</p>
+          </section>
+          <section>
+            <h2>Tagging</h2>
+            <p>Plant, location</p>
+            <p>local data base</p>
+          </section>
+          <section>
+            <h2>Sensors</h2>
+            <small><table>
+              <thead>
+                <tr>
+                  <th>Property</th>
+                  <th>Price</th>
+                  <th>Calibration</th>
+                  <th>Precision</th>
+                  <th>Longevity</th>
+                  <th>Energy</th>
+                  <th>Speed</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Temperature</td>
+                  <td>---</td>
+                  <td>no/once</td>
+                  <td>++</td>
+                  <td>+++</td>
+                  <td>---</td>
+                  <td>secs</td>
+                </tr>
+                <tr>
+                  <td>Humidity</td>
+                  <td>---</td>
+                  <td>no</td>
+                  <td>+</td>
+                  <td>+++</td>
+                  <td>---</td>
+                  <td>secs</td>
+                </tr>
+                <tr>
+                  <td>Vol liquid</td>
+                  <td>---</td>
+                  <td>yes</td>
+                  <td>-</td>
+                  <td>++</td>
+                  <td>---</td>
+                  <td>NA</td>
+                </tr>
+                <tr>
+                  <td>Vol gas</td>
+                  <td>+++</td>
+                  <td>yes</td>
+                  <td>-</td>
+                  <td>++</td>
+                  <td>---</td>
+                  <td>NA</td>
+                </tr>
+                <tr>
+                  <td>Gas/Wind Speed</td>
+                  <td>++</td>
+                  <td>yes</td>
+                  <td>-</td>
+                  <td>+</td>
+                  <td>---</td>
+                  <td>NA</td>
+                </tr>
+                <tr>
+                  <td>pH liquid</td>
+                  <td>++</td>
+                  <td>yes</td>
+                  <td>-</td>
+                  <td>1 year</td>
+                  <td>-</td>
+                  <td>mins</td>
+                </tr>
+                <tr>
+                  <td>pH solid</td>
+                  <td>++</td>
+                  <td>yes</td>
+                  <td>--</td>
+                  <td>5 years</td>
+                  <td>-</td>
+                  <td>mins</td>
+                </tr>
+                <tr>
+                  <td>Flammability</td>
+                  <td>-</td>
+                  <td>yes</td>
+                  <td>+-</td>
+                  <td>5 years</td>
+                  <td>+++</td>
+                  <td>secs</td>
+                </tr>
+                <tr>
+                  <td>Radiation</td>
+                  <td>-</td>
+                  <td>no</td>
+                  <td>+</td>
+                  <td>+++</td>
+                  <td>-</td>
+                  <td>secs</td>
+                </tr>
+                <tr>
+                  <td>Voltage/Current</td>
+                  <td>-</td>
+                  <td>no</td>
+                  <td>+++</td>
+                  <td>+++</td>
+                  <td>--</td>
+                  <td>secs</td>
+                </tr>
+                <tr>
+                  <td>Magnetic field</td>
+                  <td>-</td>
+                  <td>yes</td>
+                  <td>+</td>
+                  <td>+++</td>
+                  <td>--</td>
+                  <td>&lt; secs</td>
+                </tr>
+                <tr>
+                  <td>Location/Position</td>
+                  <td>++</td>
+                  <td>yes</td>
+                  <td>+</td>
+                  <td>+++</td>
+                  <td>+</td>
+                  <td>secs</td>
+                </tr>
+              </tbody>
+            </table></small>
+          </section>
+        </section>
+
+        <section>    <!-- Vision & goals -->
+          <section>
+            <h2>Vision &amp; goals</h2>
+          </section>
+          <section>
+            <h2>imagine...</h2>
+          </section>
+          <section>
+            <h2>the brutal reality</h2>
+            <p class="fragment  fade up" style="color:lightgreen">is mowing, mowing mowing</p>
+          </section>
+          <section>
+            <p>Robotic mopping</p>
+            <img height="550"  data-src="media/robotic-mopping.jpg">
+          </section>
+        </section>
+
+        <section>    <!-- The long and winding road -->
+          <section>
+            <h2>The long and winding road</h2>
+          </section>
+          <section>
+            <p>Tinkerforge, powerful, pricey and power hungry</p>
+            <img height="550"  data-src="media/tinkerforge.jpg">
+          </section>
+          <section>
+            <p>The garden lamp approach</p>
+            <img height="550"  data-src="media/garden-lamp.jpg">
+          </section>
+          <section>
+            <p>Moteino - Arduino type Uno - a tiny and only 3.3V FOSS implementation</p>
+            <img height="550"  data-src="media/moteino-topview.jpg">
+          </section>
+          <section>
+            <p>Decent documentation</p>
+            <img height="550"  data-src="media/moteino-doc.jpg">
+          </section>
+          <section>
+            <p>Great radio from Hope RF</p>
+            <img height="550"  data-src="media/RFM96.png">
+          </section>
+        </section>
+
+        <section>    <!-- Implemented so far -->
+          <section>
+            <h2>Implemented so far</h2>
+          </section>
+          <section>
+            <p>Solar power source</p>
+            <img height="550"  data-src="media/lifepo-power.jpg">
+          </section>
+          <section>
+            <p>Base station</p>
+            <img height="550"  data-src="media/base-station.jpg">
+          </section>
+          <section>
+            <p>3D printing - design with SCAD and Cura</p>
+            <img height="550"  data-src="media/3D-printing.jpg">
+          </section>
+          <section>
+            <p>3D printed enclosures</p>
+            <img height="550"  data-src="media/3D-printed-enclosures.jpg">
+          </section>
+          <section>
+            <p>3D printed enclosures</p>
+            <img height="550"  data-src="media/3D-printed-enclosures-top.jpg">
+          </section>
+          <section>
+            <p>pH Meter commercial broken</p>
+            <img height="550"  data-src="media/ph-meter-commercial.jpg">
+          </section>
+          <section>
+            <p>pH Meter replacement</p>
+            <img height="550"  data-src="media/ph-tip.jpg">
+          </section>
+          <section>
+            <p>Swimming thermometer - worked for more than a year</p>
+            <img height="550"  data-src="media/biodigester.jpg">
+          </section>
+          <section>
+            <h2>A lot of mowing in between :)</h2>
+            <p class="fragment  fade up" style="color:lightgreen">mowing</p>
+            <p class="fragment  fade up" style="color:lightgreen">mowing</p>
+            <p class="fragment  fade up" style="color:lightgreen">mowing</p>
+            <p class="fragment  fade up" style="color:lightgreen">mowing</p>
+            <p class="fragment  fade up" style="color:lightgreen">mowing :)</p>
+            <p class="fragment  fade up" style="color:lightgreen">Mahalo nui loa!</p>
+          </section>
+        </section>
+
+        <section>    <!-- Useful links -->
+          <h2>Useful links</h2>
+          <ul>
+            <li><a href="https://lowpowerlab.com/">Moteino - Low Power Labs</a></li>
+            <li><a href="http://www.hoperf.com/index.html">Hope RF radio submodule</a></li>
+            <li><a http://www.semtech.com/wireless-rf/internet-of-things/what-is-lora/">Useful LoRa information from the creator</a></li>
+          </ul>
+        </section>
+      </div>
+
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+
+      // More info https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [
+          { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'plugin/zoom-js/zoom.js', async: true },
+          { src: 'plugin/notes/notes.js', async: true }
+        ]
+      });
+
+    </script>
+
+  </body>
+</html>
